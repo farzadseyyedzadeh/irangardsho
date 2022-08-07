@@ -6,9 +6,11 @@ class FirstScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text(
-        "hello world",
-        textDirection: TextDirection.ltr,
+      body: Center(
+        child: Text(
+          "hello world",
+          textDirection: TextDirection.ltr,
+        ),
       ),
     );
   }

@@ -4,6 +4,7 @@ import 'package:irangardsho/first_screen.dart';
 void main() {
   runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: FirstScreen(),
     ),
   );
